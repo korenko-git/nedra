@@ -15,10 +15,18 @@ header.masthead {
     line-height: 2.2rem;
   }
 
+  form {
+    margin-top: 50px;
+  }
+
   @include media-pc {
 
     height:100%;
     height:100vh;
+
+    form {
+      margin-top: 0px;
+    }
 
     h1 {
       font-size: 3rem;
