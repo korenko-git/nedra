@@ -22,4 +22,18 @@ $(document).ready(function() {
     dotsSpeed: 600,
     dragEndSpeed: 600,
   });
+
+  $('.forms').submit(function() {
+    $.ajax({
+      type: 'POST',
+      url: 'mail.php',
+      // eslint-disable-next-line no-invalid-this
+      data: $(this).serialize(),
+    }).done(function() {
+      alert('Спасибо за заявку!');
+      $('.forms').trigger('reset');
+    });
+
+    return false;
+  });
 });
