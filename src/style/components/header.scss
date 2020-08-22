@@ -1,4 +1,5 @@
 @import "./media_mixin.scss";
+@import "./wave_mixin.scss";
 
 header.masthead {
   position: relative;
@@ -32,6 +33,12 @@ header.masthead {
     .vertical-center {
       display: flex;
       align-items: center;
+    }
+
+    .waves {
+      margin-top: -98px;
+
+      @include wavesColored(#fff);
     }
   }
 }
