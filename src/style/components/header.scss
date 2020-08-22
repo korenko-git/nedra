@@ -19,6 +19,10 @@ header.masthead {
     margin-top: 50px;
   }
 
+  .waves {
+    @include wavesColored(#fff);
+  }
+
   @include media-pc {
 
     height:100%;
@@ -44,9 +48,7 @@ header.masthead {
     }
 
     .waves {
-      margin-top: -98px;
-
-      @include wavesColored(#fff);
+      margin-top: -98px;      
     }
   }
 }
