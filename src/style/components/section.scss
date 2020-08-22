@@ -1,0 +1,12 @@
+section {
+  background-color: #fff;
+  padding-top: 4rem;
+  display: block;
+    
+  height:100%;
+  width:100%;
+}
+
+section:nth-child(odd) {
+  background-color: #eff3f9 !important;
+}
