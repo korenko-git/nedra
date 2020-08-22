@@ -21,18 +21,25 @@ function watchFiles() {
   watch(path.watch.fonts, {usePolling: true}, fonts);
 }
 
+const buildParallel = parallel(
+  styles,
+  scripts,
+  fonts,
+  images,
+  favicon
+);
+
 const build = series(
-  parallel(
-    styles,
-    scripts,
-    fonts,
-    images,
-    favicon
-  ),
+  buildParallel,
   layouts,
-  removeFaviconHTML
+  removeFaviconHTML,
+);
+
+const dev = series(
+  buildParallel,
+  layouts,
 );
 
 exports.clean = clean;
 exports.build = build;
-exports.default = series(build, parallel(watchFiles, browserSync));
+exports.default = series(dev, parallel(watchFiles, browserSync));
