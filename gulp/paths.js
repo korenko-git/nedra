@@ -17,6 +17,8 @@ const path = {
     img: srcDir + '/img/**',
     fonts: srcDir + '/fonts/**/*.*',
     favicon: srcDir + '/favicon.png',
+    php: srcDir + '/*.php',
+    env: srcDir + '/.env',
   },
   watch: {
     html: srcDir + '/**/*.html',
@@ -25,6 +27,8 @@ const path = {
     img: srcDir + '/img/**/*.*',
     fonts: srcDir + '/fonts/**/*.*',
     favicon: srcDir + '/favicon.png',
+    php: srcDir + '/*.php',
+    env: srcDir + '/.env',
   },
 };
 

@@ -11,6 +11,7 @@ import {
   fonts,
   images,
   favicon,
+  copy,
   removeFaviconHTML} from './gulp/tasks';
 
 function watchFiles() {
@@ -19,6 +20,8 @@ function watchFiles() {
   watch(path.watch.js, {usePolling: true}, scripts);
   watch(path.watch.img, {usePolling: true}, images);
   watch(path.watch.fonts, {usePolling: true}, fonts);
+  watch(path.watch.php, {usePolling: true}, copy);
+  watch(path.watch.env, {usePolling: true}, copy);
 }
 
 const buildParallel = parallel(
@@ -26,6 +29,7 @@ const buildParallel = parallel(
   scripts,
   fonts,
   images,
+  copy,
   favicon
 );
 
