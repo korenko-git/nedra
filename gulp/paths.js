@@ -14,7 +14,7 @@ const path = {
     html: srcDir + '/*.html',
     js: srcDir + '/js/*.js',
     style: srcDir + '/style/main.scss',
-    img: srcDir + '/img/**',
+    img: srcDir + '/img/**/*.{jpg,png,svg}',
     fonts: srcDir + '/fonts/**/*.*',
     favicon: srcDir + '/favicon.png',
     php: srcDir + '/*.php',
