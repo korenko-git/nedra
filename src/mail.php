@@ -20,10 +20,12 @@ $mail->Port = 465;
 $mail->Username = $_ENV['GMAIL_USER_NAME'];
 $mail->Password = $_ENV['GMAIL_USER_PASSWORD'];
 
+function secure_read($value) {return htmlspecialchars(stripslashes(trim($value)));}
+
 // body
-$name = trim($_POST["name"]);
-$phone = trim($_POST["phone"]);
-$formName = trim($_POST["formname"]);
+$name = secure_read($_POST["name"]);
+$phone = secure_read($_POST["phone"]);
+$formName = secure_read($_POST["formname"]);
 $body = "
 Форма: $formName <br>
 Имя: $name <br>
