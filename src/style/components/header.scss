@@ -17,6 +17,10 @@ header.masthead {
 
   form {
     margin-top: 50px;
+
+    @include media-before-pc {
+      display: none;
+    }
   }
 
   .waves {
