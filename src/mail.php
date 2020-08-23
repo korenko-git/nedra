@@ -25,7 +25,7 @@ $name = trim($_POST["name"]);
 $phone = trim($_POST["phone"]);
 $formName = trim($_POST["formname"]);
 $body = "
-Форма: $formname <br>
+Форма: $formName <br>
 Имя: $name <br>
 Телефон: $phone";
 
