@@ -1,3 +1,4 @@
+@import "./media_mixin.scss";
 @import "./wave_mixin.scss";
 
 .footer {
@@ -10,6 +11,14 @@
   .waves {
     margin-top: -215px;   
     @include wavesColored(#1f2d41);
+
+    @include media-phone {
+      margin-top: -143px;
+    }
+  }
+
+  .container {
+    margin-top: -55px;
   }
 
   .col-heading {
