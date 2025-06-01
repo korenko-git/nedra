@@ -28,3 +28,17 @@
 @import "./components/about.scss";
 @import "./components/request.scss";
 @import "./components/footer.scss";
+
+
+@include media-breakpoint-down(sm) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .col,
+  [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
