@@ -17,6 +17,7 @@ const path = {
       "node_modules/bootstrap/js/dist/util.js",
       "node_modules/bootstrap/js/dist/scrollspy.js",
       "node_modules/bootstrap/js/dist/collapse.js",
+      "node_modules/bootstrap/js/dist/dropdown.js",
       srcDir + "/js/*.js",
     ],
     style: srcDir + "/style/main.scss",
