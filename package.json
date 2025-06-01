@@ -1,8 +1,6 @@
 {
   "name": "nedra",
   "version": "1.0.0",
-  "description": "landing page",
-  "main": "index.js",
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
@@ -49,5 +47,21 @@
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "owl.carousel": "^2.3.4"
-  }
+  },
+  "description": "Multilingual landing page for well drilling company",
+  "main": "index.js",
+  "private": false,
+  "homepage": "https://korenko-git.github.io/nedra",
+  "keywords": [
+    "landing page",
+    "well drilling",
+    "multilingual",
+    "gulp",
+    "scss",
+    "javascript",
+    "bootstrap",
+    "jquery",
+    "owl.carousel",
+    "aos"
+  ]
 }
