@@ -58,7 +58,7 @@ After building, the site generates:
 
 * `index.html` — English version (default)
 * `index-uk.html` — Ukrainian version
-* `index-кг.html` — Russian version
+* `index-ru.html` — Russian version
 
 Language switching logic should be handled manually or via your routing strategy (e.g., links or JS).
 
@@ -78,4 +78,4 @@ To activate, replace the action URL inside `src/template/components/form.html`:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE.md) file for details.
