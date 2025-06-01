@@ -1,12 +1,12 @@
 @mixin wavesColored($color) {
   .wave1 {
-    fill: rgba($color, .7);
+    fill: rgba($color, 0.7);
   }
   .wave2 {
-    fill: rgba($color, .5);
+    fill: rgba($color, 0.5);
   }
   .wave3 {
-    fill: rgba($color, .3);
+    fill: rgba($color, 0.3);
   }
   .wave4 {
     fill: $color;

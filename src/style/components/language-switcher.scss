@@ -1,20 +1,19 @@
 .language-switcher {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    .dropdown-toggle {
-      font-size: 0.875rem;
-      padding: 0.25rem 0.5rem;
-      
-      &::after {
-        margin-left: 0.5rem;
-      }
-    }
-    
-  }
-  
-  @media (max-width: 991px) {
-    .language-switcher {
-      margin: 0.5rem 0;
+  .dropdown-toggle {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+
+    &::after {
+      margin-left: 0.5rem;
     }
   }
+}
+
+@media (max-width: 991px) {
+  .language-switcher {
+    margin: 0.5rem 0;
+  }
+}
