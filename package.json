@@ -5,7 +5,10 @@
     "dev": "gulp",
     "build": "gulp build",
     "clean": "gulp clean",
-    "deploy": "npm run build && gh-pages -d dest"
+    "deploy": "npm run build && gh-pages -d dest",
+    "lint": "eslint src/js/",
+    "lint:fix": "eslint src/js/ --fix",
+    "format": "prettier --write \"src/**/*.{js,scss,html}\""
   },
   "author": "",
   "license": "ISC",
@@ -17,8 +20,10 @@
     "babel-eslint": "^10.1.0",
     "browser-sync": "^2.26.12",
     "del": "^5.1.0",
-    "eslint": "^7.19.0",
+    "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
     "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -43,6 +48,7 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-pngquant": "^9.0.0",
     "nunjucks": "^3.2.4",
+    "prettier": "^3.5.3",
     "sass": "^1.32.8",
     "sharp": "^0.30.0"
   },
