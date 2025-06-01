@@ -2,9 +2,8 @@
 import {src, dest} from 'gulp';
 import newer from 'gulp-newer';
 import imagemin from 'gulp-imagemin';
-import imageresize from 'gulp-image-resize'; // need to install imagemagick or graphicsmagick
+import sharpResponsive from 'gulp-sharp-responsive';
 import pngquant from 'imagemin-pngquant';
-import rename from 'gulp-rename';
 
 import {path} from '../paths';
 
@@ -18,10 +17,10 @@ function images() {
       imagemin.svgo({plugins: [{removeViewBox: false}]}),
     ]))
     .pipe(dest(path.build.img))
-    .pipe(rename({suffix: '.thumb'}))
-    .pipe(imageresize({
-      width: 369,
-      upscale: false,
+    .pipe(sharpResponsive({
+      formats: [
+        { width: 369, rename: { suffix: '.thumb' } },
+      ]
     }))
     .pipe(dest(path.build.img));
 }
