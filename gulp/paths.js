@@ -1,5 +1,6 @@
 const srcDir = 'src';
 const buildDir = 'dest';
+const languages = ['ru', 'en', 'uk'];
 
 const path = {
   build: {
@@ -17,8 +18,7 @@ const path = {
     img: srcDir + '/img/**/*.{jpg,png,svg}',
     fonts: srcDir + '/fonts/**/*.*',
     favicon: srcDir + '/favicon.png',
-    php: srcDir + '/*.php',
-    env: srcDir + '/.env',
+    locales: srcDir + '/locales/*.json',
   },
   watch: {
     html: srcDir + '/**/*.html',
@@ -27,8 +27,7 @@ const path = {
     img: srcDir + '/img/**/*.*',
     fonts: srcDir + '/fonts/**/*.*',
     favicon: srcDir + '/favicon.png',
-    php: srcDir + '/*.php',
-    env: srcDir + '/.env',
+    locales: srcDir + '/locales/*.json',
   },
 };
 
@@ -39,6 +38,7 @@ export {
   srcDir,
   buildDir,
   path,
+  languages,
   faviconsHTML,
   faviconsHTMLPath,
 };

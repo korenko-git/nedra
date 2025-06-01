@@ -1,9 +1,8 @@
 <header class="masthead text-white">
-
   <div class="container vertical-center">
     <div class="row vertical-center">
       <div class="col-lg-8" data-aos="fade-right">
-        <h1>Бурение скважин под ключ в Воронеже</h1>
+        <h1>@@t.header.title</h1>
         <ul>
           <li>
             <span> 
@@ -11,31 +10,30 @@
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
             </span>
-            Бесплатная консультация и выезд специалиста
+            @@t.header.features_1
           </li>
-
           <li>
             <span> 
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
             </span>
-            С каждым заказчиком составляем договор и выдаем паспорт на скважину
+            @@t.header.features_2
           </li>
-
           <li>
             <span> 
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
             </span>
-            Предоставляем гарантию на работы и материалы до 5 лет!
+            @@t.header.features_3
           </li>
         </ul>
       </div>
+
       <div class="col-lg-4" data-aos="fade-left">
         @@include('../components/form.html', {
-          "h2": "<h2>Заявка:</h2>",
+          "h2": "<h2>@@t.form.title:</h2>",
           "btnClass": "btn-primary",
           "formName": "top",
           "inputNameID": "nameClientTop",

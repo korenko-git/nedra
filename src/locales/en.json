@@ -1,0 +1,76 @@
+{
+  "site": {
+    "title": "Well Drilling Services Voronezh | IP Skvortsov",
+    "description": "Professional well drilling services in Voronezh. 5-year warranty. Fast service. 10 years experience. Call now! Free material delivery"
+  },
+  "nav": {
+    "brand": "IP Skvortsov",
+    "about": "About",
+    "services": "Services",
+    "objects": "Projects",
+    "reviews": "Reviews",
+    "request": "Contact Us",
+    "phone": "+7 (473) 123-45-67"
+  },
+  "form": {
+    "title": "Contact Us",
+    "subtitle": "Leave a request and we will contact you within 5 minutes during business hours from 10:00 to 18:00 Mon-Fri.",
+    "name_label": "Your name:",
+    "name_placeholder": "Enter your name",
+    "phone_label": "Your phone:",
+    "phone_placeholder": "Enter your phone",
+    "submit": "Send"
+  },
+  "header": {
+    "title": "Professional Well Drilling Services in Voronezh",
+    "features_1": "Free consultation and specialist visit",
+    "features_2": "Contract and well passport for every client",
+    "features_3": "5-year warranty on all types of work",
+    "cta": "Get Consultation"
+  },
+  "about": {
+    "title": "Water Well Drilling in Voronezh and Region",
+    "description_1": "We offer well drilling in Voronezh at affordable prices. During our productive work, our specialists have accumulated vast experience in drilling operations in various hydrogeological conditions. This allows us to undertake complex tasks and successfully complete them.",
+    "description_2": "Depending on our clients' wishes, we drill traditional or artesian wells, and also install pumping equipment.",
+    "cta": "Leave a request"
+  },
+  "footer": {
+    "share_heading": "Share",
+    "sections_heading": "Sections",
+    "contacts_heading": "Contacts"
+  },
+  "objects": {
+    "title": "Object Photos"
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "tatyana_tarasova_name": "Tatyana Tarasova",
+    "tatyana_tarasova_text": "Recently, I decided to drill a well for water. I found a couple of well drilling companies online, called them all, and settled on this website. I liked that everything was explained, and the price for well drilling was not high. Specialists arrived at the agreed time and drilled the well in 9 hours. I was happy that it was so fast!!! They didn't splash the house, it remained clean, they answered all my, perhaps, funny questions, and explained how to use the well. Thank you guys for a very fast and high-quality job.",
+    "ruslan_parhomenko_name": "Ruslan Parkhomenko",
+    "ruslan_parhomenko_text": "The well work was done 1-quickly, 2-very high quality (although the conditions were not easy - a hard-to-reach place where other drilling rigs could not enter). I didn't even think there would be water in such a place. As a result, we have been using water for more than a month, and thank you for your advice on maintaining the equipment's performance.",
+    "evgeniy_nikolaevich_name": "Evgeniy Nikolaevich",
+    "evgeniy_nikolaevich_text": "All work was completed in 2 days. The amount remained unchanged as initially agreed. The well is 82 meters deep. We have been using it for half a year and are satisfied. I have no complaints about the price, quality of work, or the result. Thank you, I will recommend you as professionals!"
+  },
+  "service": {
+    "title": "As a result of our work, you will get a well with the purest water",
+    "drilling_title": "Well drilling in Voronezh region",
+    "drilling_text": "We are ready to create a beautiful and reliable source of fresh water up to 120 m deep on your site in the Voronezh region. You will have durable equipment and high-quality fresh water all year round!",
+    "passport_title": "Well passport",
+    "passport_feature_1": "Contains all parameters and characteristics of the well",
+    "passport_feature_2": "Necessary for selecting and installing a pump",
+    "passport_feature_3": "Facilitates maintenance: cleaning and repairing the well in the distant future",
+    "passport_feature_4": "Useful when selling the plot",
+    "cost_title": "Well drilling cost",
+    "cost_text": "From <b>1500 rubles/meter</b> the cost includes:",
+    "cost_feature_1": "Travel, road, fuel, consumables (plastic, iron, asbestos-cement pipes)",
+    "cost_feature_2": "Machine drilling",
+    "cost_feature_3": "Casing with pipe (food-grade plastic from 125 mm to 320 mm)",
+    "cost_feature_4": "Warranty and well documents",
+    "guarantee_title": "Warranty",
+    "guarantee_text": "We provide a warranty for work and materials up to 5 years! We have been drilling wells for water in Voronezh and the region for over 10 years.",
+    "consultation_title": "Free consultation and specialist visit",
+    "consultation_text": "We estimate the approximate depth of the water well and announce the drilling cost.",
+    "water_supply_title": "Individual water supply system",
+    "water_supply_text": "Installation of pumping equipment and well arrangement."
+  }
+}

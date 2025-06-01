@@ -1,23 +1,18 @@
-<form class="forms">
+<form class="forms" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
   @@h2
-  <small >Оставьте заявку и мы свяжемся с вами в течение 5 минут в рабочее время с 10:00 до 18:00 c пн-пт.</small>
+  <small>@@t.form.subtitle</small>
 
   <div class="form-group pt-3">
-    <label for="@@inputNameID">Ваше имя:</label>
-    <input type="text" class="form-control" id="@@inputNameID" placeholder="Введите ваше имя" name="name" required>
+    <label for="@@inputNameID">@@t.form.name_label</label>
+    <input type="text" class="form-control" id="@@inputNameID" placeholder="@@t.form.name_placeholder" name="name" required>
   </div>
 
   <div class="form-group">
-    <label for="@@inputPhoneID">Ваш телефон:</label>
-    <input type="text"                   
-            class="form-control" 
-            id="@@inputPhoneID" 
-            placeholder="Введите ваше телефон" 
-            name="phone" 
-            required>
+    <label for="@@inputPhoneID">@@t.form.phone_label</label>
+    <input type="text" class="form-control" id="@@inputPhoneID" placeholder="@@t.form.phone_placeholder" name="phone" required>
   </div>
 
-  <button class="btn @@btnClass w-100">Отправить</button>
-  <input type="hidden" name="formname" value="@@formName">
-
-</form>     
+  <button class="btn @@btnClass w-100" type="submit">@@t.form.submit</button>
+  <input type="hidden" name="_language" value="@@lang">
+  <input type="hidden" name="_subject" value="New contact form submission">
+</form>
