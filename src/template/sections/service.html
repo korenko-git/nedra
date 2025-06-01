@@ -1,17 +1,17 @@
-<section id="service" class="h-auto">
+<section class="h-auto" id="service">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center mb-5" >
-        <h2>@@t.service.title</h2>
+        <h2>{{ t.service.title }}</h2>
       </div>
 
-    <div class="row">
+    <div class="row px-0">
       <div class="col-lg-4 col-md-6 mb-5 d-flex align-items-stretch" data-aos="fade-up">
         <div class="card lift text-center">
           <div class="card-body py-5">
-            <h3>@@t.service.drilling_title</h3>
+            <h3>{{ t.service.drilling_title }}</h3>
             <p class="card-text small text-left">
-              @@t.service.drilling_text
+              {{ t.service.drilling_text }}
             </p>
           </div>
         </div>
@@ -20,7 +20,7 @@
       <div class="col-lg-4 col-md-6 mb-5 d-flex align-items-stretch" data-aos="fade-up">
         <div class="card lift">
           <div class="card-body py-5 text-center">
-            <h3>@@t.service.passport_title</h3>
+            <h3>{{ t.service.passport_title }}</h3>
             <div class="card-text small text-left">
               <ul>
                 <li>
@@ -29,28 +29,28 @@
                       <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                     </svg>
                   </span>
-                  @@t.service.passport_feature_1</li>
+                  {{ t.service.passport_feature_1 }}</li>
                 <li>
                   <span> 
                     <svg width="1em" height="1em">
                       <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                     </svg>
                   </span>
-                  @@t.service.passport_feature_2</li>
+                  {{ t.service.passport_feature_2 }}</li>
                 <li>
                   <span> 
                     <svg width="1em" height="1em">
                       <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                     </svg>
                   </span>
-                  @@t.service.passport_feature_3</li>
+                  {{ t.service.passport_feature_3 }}</li>
                 <li>
                   <span> 
                     <svg width="1em" height="1em">
                       <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                     </svg>
                   </span>
-                  @@t.service.passport_feature_4</li>
+                  {{ t.service.passport_feature_4 }}</li>
               </ul>
             </div>
           </div>
@@ -60,9 +60,9 @@
       <div class="col-lg-4 col-md-6 mb-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="150">
         <div class="card lift text-center">
           <div class="card-body py-5">
-            <h3>@@t.service.cost_title</h3>
+            <h3>{{ t.service.cost_title }}</h3>
             <div class="card-text small text-left">
-              <p>@@t.service.cost_text</p>
+              <p>{{ t.service.cost_text_start  }} <b>{{ config.price_per_meter }} {{ t.service.currency }}</b> {{ t.service.cost_text_end  }} </p>
               <ul>
                 <li>
                   <span> 
@@ -70,28 +70,28 @@
                       <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                     </svg>
                   </span>
-                  @@t.service.cost_feature_1</li>
+                  {{ t.service.cost_feature_1 }}</li>
                   <li>
                     <span> 
                       <svg width="1em" height="1em">
                         <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                       </svg>
                     </span>
-                    @@t.service.cost_feature_2</li>
+                    {{ t.service.cost_feature_2 }}</li>
                     <li>
                       <span> 
                         <svg width="1em" height="1em">
                           <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                         </svg>
                       </span>
-                      @@t.service.cost_feature_3</li>
+                      {{ t.service.cost_feature_3 }}</li>
                       <li>
                         <span> 
                           <svg width="1em" height="1em">
                             <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
                           </svg>
                         </span>
-                        @@t.service.cost_feature_4</li>
+                        {{ t.service.cost_feature_4 }}</li>
               </ul>
             </div>
           </div>
@@ -101,9 +101,9 @@
       <div class="col-lg-4 col-md-6 mb-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="150">
         <div class="card lift text-center">
           <div class="card-body py-5">
-            <h3>@@t.service.guarantee_title</h3>
+            <h3>{{ t.service.guarantee_title }}</h3>
             <p class="card-text small text-left">
-              @@t.service.guarantee_text
+              {{ t.service.guarantee_text }}
             </p>
           </div>
         </div>        
@@ -112,9 +112,9 @@
       <div class="col-lg-4 col-md-6 mb-5 d-flex align-items-stretch" data-aos="fade-up">
         <div class="card lift text-center">
           <div class="card-body py-5">
-            <h3>@@t.service.consultation_title</h3>
+            <h3>{{ t.service.consultation_title }}</h3>
             <p class="card-text small text-left">
-              @@t.service.consultation_text
+              {{ t.service.consultation_text }}
             </p>
           </div>
         </div>
@@ -123,9 +123,9 @@
       <div class="col-lg-4 col-md-6 mb-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
         <div class="card lift text-center">
           <div class="card-body py-5">
-            <h3>@@t.service.water_supply_title</h3>
+            <h3>{{ t.service.water_supply_title }}</h3>
             <p class="card-text small text-left">
-              @@t.service.water_supply_text
+              {{ t.service.water_supply_text }}
             </p>
           </div>
         </div>

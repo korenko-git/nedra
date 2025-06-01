@@ -1,8 +1,8 @@
-<header class="masthead text-white">
+<header class="masthead text-white" id="header">
   <div class="container vertical-center">
     <div class="row vertical-center">
       <div class="col-lg-8" data-aos="fade-right">
-        <h1>@@t.header.title</h1>
+        <h1>{{ t.header.title }}</h1>
         <ul>
           <li>
             <span> 
@@ -10,7 +10,7 @@
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
             </span>
-            @@t.header.features_1
+            {{ t.header.features_1 }}
           </li>
           <li>
             <span> 
@@ -18,7 +18,7 @@
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
             </span>
-            @@t.header.features_2
+            {{ t.header.features_2 }}
           </li>
           <li>
             <span> 
@@ -26,24 +26,26 @@
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
             </span>
-            @@t.header.features_3
+            {{ t.header.features_3 }}
           </li>
         </ul>
       </div>
 
       <div class="col-lg-4" data-aos="fade-left">
-        @@include('../components/form.html', {
-          "h2": "<h2>@@t.form.title:</h2>",
-          "btnClass": "btn-primary",
-          "formName": "top",
-          "inputNameID": "nameClientTop",
-          "inputPhoneID": "phoneClientTop",
-        })
+        {% from "components/form_macros.html" import form %}
+        {{ form(
+          t=t,
+          h2="<h2>" + t.form.title + ":</h2>",
+          btnClass="btn-primary",
+          formName="top",
+          inputNameID="nameClientTop",
+          inputPhoneID="phoneClientTop"
+        ) }}
       </div>
     </div>
   </div>
 
   <div>
-    @@include('../components/wave.html')
+    {% include "components/wave.html" %}
   </div>
 </header>

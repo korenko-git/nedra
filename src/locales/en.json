@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Well Drilling Services Voronezh | IP Skvortsov",
-    "description": "Professional well drilling services in Voronezh. 5-year warranty. Fast service. 10 years experience. Call now! Free material delivery"
+    "title": "Well Drilling Services Kyiv | IP Skvortsov",
+    "description": "Professional well drilling services in Kyiv. 5-year warranty. Fast service. 10 years experience. Call now! Free material delivery"
   },
   "nav": {
     "brand": "IP Skvortsov",
@@ -9,8 +9,7 @@
     "services": "Services",
     "objects": "Projects",
     "reviews": "Reviews",
-    "request": "Contact Us",
-    "phone": "+7 (473) 123-45-67"
+    "request": "Contact Us"
   },
   "form": {
     "title": "Contact Us",
@@ -22,15 +21,15 @@
     "submit": "Send"
   },
   "header": {
-    "title": "Professional Well Drilling Services in Voronezh",
+    "title": "Professional Well Drilling Services in Kyiv",
     "features_1": "Free consultation and specialist visit",
     "features_2": "Contract and well passport for every client",
     "features_3": "5-year warranty on all types of work",
     "cta": "Get Consultation"
   },
   "about": {
-    "title": "Water Well Drilling in Voronezh and Region",
-    "description_1": "We offer well drilling in Voronezh at affordable prices. During our productive work, our specialists have accumulated vast experience in drilling operations in various hydrogeological conditions. This allows us to undertake complex tasks and successfully complete them.",
+    "title": "Water Well Drilling in Kyiv and Region",
+    "description_1": "We offer well drilling in Kyiv at affordable prices. During our productive work, our specialists have accumulated vast experience in drilling operations in various hydrogeological conditions. This allows us to undertake complex tasks and successfully complete them.",
     "description_2": "Depending on our clients' wishes, we drill traditional or artesian wells, and also install pumping equipment.",
     "cta": "Leave a request"
   },
@@ -53,21 +52,23 @@
   },
   "service": {
     "title": "As a result of our work, you will get a well with the purest water",
-    "drilling_title": "Well drilling in Voronezh region",
-    "drilling_text": "We are ready to create a beautiful and reliable source of fresh water up to 120 m deep on your site in the Voronezh region. You will have durable equipment and high-quality fresh water all year round!",
+    "drilling_title": "Well drilling in Kyiv region",
+    "drilling_text": "We are ready to create a beautiful and reliable source of fresh water up to 120 m deep on your site in the Kyiv region. You will have durable equipment and high-quality fresh water all year round!",
     "passport_title": "Well passport",
     "passport_feature_1": "Contains all parameters and characteristics of the well",
     "passport_feature_2": "Necessary for selecting and installing a pump",
     "passport_feature_3": "Facilitates maintenance: cleaning and repairing the well in the distant future",
     "passport_feature_4": "Useful when selling the plot",
     "cost_title": "Well drilling cost",
-    "cost_text": "From <b>1500 rubles/meter</b> the cost includes:",
+    "cost_text_start": "From ",
+    "currency": "UAH/meter",
+    "cost_text_end": " the cost includes:",
     "cost_feature_1": "Travel, road, fuel, consumables (plastic, iron, asbestos-cement pipes)",
     "cost_feature_2": "Machine drilling",
     "cost_feature_3": "Casing with pipe (food-grade plastic from 125 mm to 320 mm)",
     "cost_feature_4": "Warranty and well documents",
     "guarantee_title": "Warranty",
-    "guarantee_text": "We provide a warranty for work and materials up to 5 years! We have been drilling wells for water in Voronezh and the region for over 10 years.",
+    "guarantee_text": "We provide a warranty for work and materials up to 5 years! We have been drilling wells for water in Kyiv and the region for over 10 years.",
     "consultation_title": "Free consultation and specialist visit",
     "consultation_text": "We estimate the approximate depth of the water well and announce the drilling cost.",
     "water_supply_title": "Individual water supply system",

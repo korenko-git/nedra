@@ -1,6 +1,6 @@
 import {src, dest} from 'gulp';
 import plumber from 'gulp-plumber';
-import fileInclude from 'gulp-file-include';
+import nunjucksRender from 'gulp-nunjucks-render';
 import inject from 'gulp-inject';
 import rename from 'gulp-rename';
 import {readFileSync} from 'fs';
@@ -9,15 +9,16 @@ import {path, languages, faviconsHTMLPath} from '../paths';
 function layouts() {
   const tasks = languages.map(lang => {
     const localeData = JSON.parse(readFileSync(`src/locales/${lang}.json`, 'utf8'));
-    
+    const configData = JSON.parse(readFileSync(`src/locales/config.json`, 'utf8'));
+
     return src(path.src.html)
       .pipe(plumber())
-      .pipe(fileInclude({
-        prefix: '@@',
-        basepath: '@file',
-        context: {
+      .pipe(nunjucksRender({
+        path: ['src/template'], 
+        data: { 
           lang: lang,
-          t: localeData
+          t: localeData,
+          config: configData
         }
       }))
       .pipe(inject(src([faviconsHTMLPath]), {

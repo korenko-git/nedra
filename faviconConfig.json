@@ -1,7 +1,7 @@
 {
   "appName": "Nedra",
   "appShortName": "Nedra",
-  "appDescription": "Бурение скважин под ключ Воронеж",
+  "appDescription": "A static multilingual website for a well drilling company",
   "background": "#020307",
   "start_url": "/",
   "version": 1.0,
@@ -16,6 +16,6 @@
     "favicons": true,
     "firefox": false,
     "windows": false,
-    "yandex": true
+    "yandex": false
   }
 }

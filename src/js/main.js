@@ -1,10 +1,6 @@
 /* global $, AOS */
 /* eslint-disable spaced-comment */
 
-@@include('../../node_modules/bootstrap/js/dist/util.js')
-@@include('../../node_modules/bootstrap/js/dist/scrollspy.js')
-@@include('../../node_modules/bootstrap/js/dist/collapse.js')
-
 $(document).ready(function() {
   AOS.init();
 
