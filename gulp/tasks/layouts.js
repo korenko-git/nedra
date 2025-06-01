@@ -28,7 +28,7 @@ function layouts() {
         },
       }))
       .pipe(rename(function(path) {
-        if (lang !== 'ru') {
+        if (lang !== 'uk') {
           path.basename = path.basename + '-' + lang;
         }
       }))
