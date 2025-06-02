@@ -1,7 +1,10 @@
 section {
   background-color: #fff;
   padding: 2rem 0;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   height: 100%;
 }
