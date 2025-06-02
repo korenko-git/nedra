@@ -28,6 +28,7 @@
 @import "./components/about.scss";
 @import "./components/request.scss";
 @import "./components/footer.scss";
+@import "./components/share.scss";
 
 @include media-breakpoint-down(sm) {
   .row {
