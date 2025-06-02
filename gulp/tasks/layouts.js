@@ -9,7 +9,7 @@ import {path, languages, faviconsHTMLPath} from '../paths';
 function layouts() {
   const tasks = languages.map(lang => {
     const localeData = JSON.parse(readFileSync(`src/locales/${lang}.json`, 'utf8'));
-    const configData = JSON.parse(readFileSync(`src/locales/config.json`, 'utf8'));
+    const configData = JSON.parse(readFileSync(`src/config/config.json`, 'utf8'));
 
     return src(path.src.html)
       .pipe(plumber())

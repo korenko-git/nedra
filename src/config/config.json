@@ -1,0 +1,28 @@
+{
+  "company_name": {
+    "ru": "ИП Skvortsov",
+    "en": "IP Skvortsov",
+    "uk": "ФОП Skvortsov"
+  },
+  "phone_numbers": [
+    "+3 (068) 123-45-67",
+    "+3 (068) 987-65-43"
+  ],
+  "email_address": "info@example.com",
+  "formspree_id": "your_formspree_id",
+  "price_per_meter": 1500,
+  "social": [
+    {
+      "icon": "facebook",
+      "url": "https://www.facebook.com/sharer/sharer.php?u={{ site_url }}"
+    },
+    {
+      "icon": "instagram",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "icon": "x-twitter",
+      "url": "https://twitter.com/intent/tweet?url={{ site_url }}"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import favicons from 'gulp-favicons';
 import del from 'del';
 
 import {path, faviconsHTML, faviconsHTMLPath} from '../paths.js';
-import faviconConfig from '../../faviconConfig.json';
+import faviconConfig from '../../src/config/favicon.json';
 
 function favicon() {
   const basePath = process.env.BASE_PATH ? `/${process.env.BASE_PATH}/` : '/';
