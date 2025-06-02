@@ -3,16 +3,15 @@
 **Nedra** is a static, multilingual landing page for a well drilling company.
 It supports three languages: **English (default)**, **Ukrainian**, and **Russian**, and is designed to be fast, responsive, and easy to maintain.
 
-## 🧰 Tech Stack
+## 🧰 Technologies Used
 
-* ⚙️ HTML5, SCSS, JavaScript (ES6)
+* 🧱 HTML5, SCSS, JavaScript (ES6)
+* 🧩 [**Nunjucks**](https://mozilla.github.io/nunjucks/) — templating engine for modular HTML structure
 * 🎨 [**Bootstrap 4**](https://getbootstrap.com/) — responsive layout and components
-* 💡 [**jQuery 3.5**](https://jquery.com/) — used for legacy plugin support
-* 🖼 [**Owl Carousel 2**](https://owlcarousel2.github.io/OwlCarousel2/) — carousel/slider functionality
-* 🌀 [**AOS (Animate On Scroll)**](https://michalsnik.github.io/aos/) — scroll animations
-* 🔧 [**Gulp**](https://gulpjs.com/) — project build system
-* 🚀 [**GitHub Actions**](https://github.com/features/actions) — automated deployment to GitHub Pages
-* ✉️ [**Formspree**](https://formspree.io/) — simple form submission handling
+* ⚙️ [**Gulp**](https://gulpjs.com/) — task runner for builds and automation
+* 🧮 [**jQuery 3.5**](https://jquery.com/), 🦉 [**Owl Carousel 2**](https://owlcarousel2.github.io/OwlCarousel2/), 🎞️ [**AOS**](https://michalsnik.github.io/aos/) (Animate on Scroll)
+* 📬 [**Formspree**](https://formspree.io/) — form handling without backend
+* 🚀 [**GitHub Actions**](https://github.com/features/actions) — automated CI/CD and deployment to GitHub Pages
 
 ## 🛠️ Installation & Development
 
@@ -47,7 +46,7 @@ src/
 │   ├── en.json         # English (default)
 │   ├── uk.json         # Ukrainian
 │   └── ru.json         # Russian
-├── template/           # HTML templates
+├── template/           # Nunjucks templates
 │   ├── components/     # Reusable UI components
 │   └── sections/       # Page sections
 ```
@@ -70,7 +69,7 @@ On each push to the `master` branch, the `./dest` folder is deployed to GitHub P
 ## 📝 Forms
 
 Forms are handled using **Formspree**.
-To activate, replace the action URL inside `src/template/components/form.html`:
+To activate, replace the action URL inside `src/template/components/form_macros.njk`:
 
 ```html
 <form action="https://formspree.io/f/your-form-id" method="POST">
