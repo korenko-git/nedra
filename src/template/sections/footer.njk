@@ -1,33 +1,37 @@
 <div class="footer">
   <div>
-    {% include "components/wave.html" %}
+    {% include "components/wave.njk" %}
   </div>
-  
-  <footer class="container"> 
+  <footer class="container">
     <div class="row">
       <div class="col-md-4">
-        
-        
         <p class="col-heading">{{ t.footer.share_heading }}</p>
-        
       </div>
-
       <div class="col-md-4">
         <ul class="footer-menu">
           <li class="col-heading">{{ t.footer.sections_heading }}</li>
-          <li><a href="#about">{{ t.nav.about }}</a></li>
-          <li><a href="#service">{{ t.nav.services }}</a></li> 
-          <li><a href="#object">{{ t.nav.objects }}</a></li>  
-          <li><a href="#reviews">{{ t.nav.reviews }}</a></li>  
-          <li><a href="#request">{{ t.nav.request }}</a></li>             
+          <li>
+            <a href="#about">{{ t.nav.about }}</a>
+          </li>
+          <li>
+            <a href="#service">{{ t.nav.services }}</a>
+          </li>
+          <li>
+            <a href="#object">{{ t.nav.objects }}</a>
+          </li>
+          <li>
+            <a href="#reviews">{{ t.nav.reviews }}</a>
+          </li>
+          <li>
+            <a href="#request">{{ t.nav.request }}</a>
+          </li>
         </ul>
       </div>
-
       <div class="col-md-4">
         <ul class="footer-menu">
           <li class="col-heading">{{ t.footer.contacts_heading }}</li>
           <li>
-            <span> 
+            <span>
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-mail" x="0" y="0" fill="currentColor"></use>
               </svg>
@@ -35,7 +39,7 @@
             <a href="mailto:{{ config.email_address }}">{{ config.email_address }}</a>
           </li>
           <li>
-            <span> 
+            <span>
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-phone" x="0" y="0" fill="currentColor"></use>
               </svg>
@@ -43,7 +47,7 @@
             <a href="tel:{{ config.phone_numbers[0] }}">{{ config.phone_numbers[0] }}</a>
           </li>
           <li>
-            <span> 
+            <span>
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-phone" x="0" y="0" fill="currentColor"></use>
               </svg>

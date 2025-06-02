@@ -1,0 +1,17 @@
+{% macro form(t, h2, btnClass, formName, inputNameID, inputPhoneID) %}
+  <form class="forms" id="form-{{ formName }}" action="https://formspree.io/f/{{ config.formspree_id }}" method="POST">
+    {{ h2 | safe }}
+    <small>{{ t.form.subtitle }}</small>
+    <div class="form-group pt-3">
+      <label for="{{ inputNameID }}">{{ t.form.name_label }}</label>
+      <input type="text" class="form-control" id="{{ inputNameID }}" placeholder="{{ t.form.name_placeholder }}" name="name" required/>
+    </div>
+    <div class="form-group">
+      <label for="{{ inputPhoneID }}">{{ t.form.phone_label }}</label>
+      <input type="text" class="form-control" id="{{ inputPhoneID }}" placeholder="{{ t.form.phone_placeholder }}" name="phone" required/>
+    </div>
+    <button class="btn {{ btnClass }} w-100" type="submit">{{ t.form.submit }}</button>
+    <input type="hidden" name="_language" value="{{ lang }}"/>
+    <input type="hidden" name="_subject" value="New contact form submission"/>
+  </form>
+{% endmacro %}

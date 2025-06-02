@@ -12,7 +12,7 @@ const path = {
     favicon: buildDir + "/",
   },
   src: {
-    html: srcDir + "/*.html",
+    html: srcDir + "/*.njk",
     js: [
       "node_modules/bootstrap/js/dist/util.js",
       "node_modules/bootstrap/js/dist/scrollspy.js",
@@ -27,7 +27,7 @@ const path = {
     locales: srcDir + "/locales/*.json",
   },
   watch: {
-    html: srcDir + "/**/*.html",
+    html: srcDir + "/**/*.njk",
     js: srcDir + "/js/**/*.js",
     css: srcDir + "/style/**/*.scss",
     img: srcDir + "/img/**/*.*",

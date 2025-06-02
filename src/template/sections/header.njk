@@ -5,7 +5,7 @@
         <h1>{{ t.header.title }}</h1>
         <ul>
           <li>
-            <span> 
+            <span>
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
@@ -13,7 +13,7 @@
             {{ t.header.features_1 }}
           </li>
           <li>
-            <span> 
+            <span>
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
@@ -21,7 +21,7 @@
             {{ t.header.features_2 }}
           </li>
           <li>
-            <span> 
+            <span>
               <svg width="1em" height="1em">
                 <use xlink:href="#svg-check" x="0" y="0" fill="currentColor"></use>
               </svg>
@@ -30,9 +30,8 @@
           </li>
         </ul>
       </div>
-
       <div class="col-lg-4" data-aos="fade-left">
-        {% from "components/form_macros.html" import form %}
+        {% from "components/form_macros.njk" import form %}
         {{ form(
           t=t,
           h2="<h2>" + t.form.title + ":</h2>",
@@ -44,8 +43,7 @@
       </div>
     </div>
   </div>
-
   <div>
-    {% include "components/wave.html" %}
+    {% include "components/wave.njk" %}
   </div>
 </header>

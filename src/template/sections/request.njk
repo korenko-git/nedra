@@ -1,14 +1,13 @@
 <section id="request">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-10 text-center mb-3" >
-        <h2>{{ t.form.title }}</h2>        
+      <div class="col-lg-10 text-center mb-3">
+        <h2>{{ t.form.title }}</h2>
       </div>
     </div>
-
     <div class="row justify-content-center">
-      <div class="col-lg-4 mb-3" >
-        {% from "components/form_macros.html" import form %}
+      <div class="col-lg-4 mb-3">
+        {% from "components/form_macros.njk" import form %}
         {{ form(
           t=t,
           h2="",
@@ -20,5 +19,4 @@
       </div>
     </div>
   </div>
-
 </section>
